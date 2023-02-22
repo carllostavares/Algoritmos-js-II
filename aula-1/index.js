@@ -8,6 +8,10 @@ function juntaLissta(lista1, lista2){
     while(posicaoAtualLista1 < lista1.length && posicaoAtualLista2 < lista2.length){
         let produtoAtualLista1 = lista1[posicaoAtualLista1];
         let produtoAtualLista2 = lista2[posicaoAtualLista2];
+
+        if (produtoAtualLista1.preco < produtoAtualLista2.preco){
+            listaFinal[]
+        }
     }
 
 return listaFinal
