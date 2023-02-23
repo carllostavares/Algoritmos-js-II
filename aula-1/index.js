@@ -15,7 +15,7 @@ function juntaLissta(lista1, lista2){
             listaFinal[atual] = produtoAtualLista1
             posicaoAtualLista1++;
         }else{
-            listaFinal[atual] = posicaoAtualLista2;
+            listaFinal[atual] = produtoAtualLista2;
             posicaoAtualLista2++;
         }
         atual++;
@@ -26,7 +26,6 @@ function juntaLissta(lista1, lista2){
             atual++
         }
 
-        
         while(posicaoAtualLista2 < lista2.length){
             listaFinal[atual] = lista2[posicaoAtualLista2];
             posicaoAtualLista2++
@@ -37,4 +36,4 @@ function juntaLissta(lista1, lista2){
 return listaFinal;
 } 
 
-console.log(juntaLissta(edFolha,edGalho));
+console.log(juntaLissta(edGalho,edFolha));
